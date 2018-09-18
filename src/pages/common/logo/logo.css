@@ -1,0 +1,11 @@
+.logo{
+	width: 100%;
+	background: #fff;
+	height: 50px;
+	line-height: 50px;
+}
+.logo a{
+	font-size: 30px;
+	color:red;
+	font-weight: bolder;
+}

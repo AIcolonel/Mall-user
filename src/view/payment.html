@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title><%= htmlWebpackPlugin.options.title %>-电商平台</title>
+</head>
+<body>
+	<%= require('html-loader!./common/nav.html') %>
+	<%= require('html-loader!./common/search.html') %>
+	<div class="payment">
+		<div class="container">
+			<div class="payment-content">
+				
+			</div>
+		</div>
+	</div>
+
+	<%= require('html-loader!./common/footer.html') %>
+</body>
+</html>

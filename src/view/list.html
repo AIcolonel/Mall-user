@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title><%= htmlWebpackPlugin.options.title %>-电商平台</title>
+</head>
+<body>
+	<%= require('html-loader!./common/nav.html') %>
+	<%= require('html-loader!./common/search.html') %>
+	<div class="list">
+		<div class="container clearfix">
+			<div class="order">
+				<span class="order-item default-order active">默认排序</span>
+				<span class="order-item price-order price-ascending">
+					按价格排序
+					<i class="price-item fa fa-sort-up ascending"></i>
+					<i class="price-item fa fa-sort-down down"></i>
+				</span>
+			</div>
+			<div class="list-table clearfix">
+				
+			</div>
+			<div class="pagination-list clearfix">
+				
+			</div>
+		</div>
+	</div>
+
+	<%= require('html-loader!./common/footer.html') %>
+</body>
+</html>

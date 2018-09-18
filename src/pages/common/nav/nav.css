@@ -1,0 +1,26 @@
+.nav{
+	height: 40px;
+	line-height: 40px;
+	background: #fff;
+}
+.user-info, .user{
+	float: left;
+}
+.userInfo{
+	color: #FC6262;
+	margin-left: 5px;
+}
+.not-login a{
+	margin-left: 10px;
+}
+.hide{
+	display: none;
+}
+.nav-list{
+	float: right;
+}
+
+.nav-list li{
+	float: left;
+	margin-right: 10px;
+}

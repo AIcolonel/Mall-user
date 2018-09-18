@@ -1,0 +1,27 @@
+.pagination{
+	text-align: center;
+	margin-left:250px;
+}
+.page-item{
+	cursor: pointer;
+	float: left;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border: 1px solid #757373;
+}
+.disabled{
+	border: 1px solid #B4B3B3;
+	cursor: auto;
+	color:#B4B3B3;
+}
+.active-item{
+	background: #F21;
+}
+.page-summ{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+}

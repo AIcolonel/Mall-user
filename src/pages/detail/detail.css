@@ -1,0 +1,126 @@
+.product-intro{
+	margin-top: 20px;
+}
+.detail-img{
+	width: 300px;
+	height: 400px;
+	float: left;
+	margin-right: 20px;
+	background: #fff;
+	text-align: center;
+}
+.detail-img img{
+	width: 250px;
+	height: 250px;
+	border: 1px solid #ccc;
+	margin-top: 15px;
+}
+.detail-img-small{
+	width: 100%;
+}
+.detail-img-small img{
+	width: 70px;
+	height: 70px;
+	float: left;
+	margin-left: 20px;
+	cursor: pointer;
+}
+.detail-img-small-item.active{
+	border: 1px solid #F21;
+}
+.detail-info{
+	padding: 0px 20px;
+	box-sizing: border-box;
+	float: left;
+	width: 500px;
+	height: 400px;
+	text-align: left;
+	background: #fff;
+	font-size: 16px;
+	color: #616060;
+}
+.product-name{
+	margin-top: 20px;
+}
+.product-name span:last-child{
+	color:#F21;
+	font-weight: bold;
+}
+.product-price{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 5px;
+	background: #B9B5B5;
+	margin-top: 20px;
+}
+.product-price span:last-child{
+	color:#F21;
+	font-weight: bold;
+}
+.product-inventory{
+	margin-top: 20px;
+}
+.product-inventory span:last-child{
+	font-weight: bold;
+}
+.product-number{
+	margin-top: 20px;
+}
+.product-number span{
+	margin-right: 5px;
+	cursor: pointer;
+}
+.product-number .input-number{
+	display: inline-block;
+	border-radius: 5px;
+	width: 50px;
+}
+.addCart .btn{
+	margin: 20px 0px;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.product-detail{
+
+}
+.product-info{
+	margin-top: 20px;
+}
+.product-detail-info{
+	width: 100%;
+	height: 44px;
+	color: #F21;
+	line-height: 44px;
+	font-size: 18px;
+	font-weight: bold;
+	background: #A29E9E;
+	padding-left: 10px;
+	box-sizing: border-box;
+	border-bottom: 2px solid #F21;
+}
+.product-detail-content{
+	width: 100%;
+	/*height: 400px;*/
+
+}
+.product-commen{
+	margin-top: 20px;
+}
+.product-commen-info{
+	width: 100%;
+	height: 44px;
+	color: #F21;
+	line-height: 44px;
+	font-size: 18px;
+	font-weight: bold;
+	background: #A29E9E;
+	padding-left: 10px;
+	box-sizing: border-box;
+	border-bottom: 2px solid #F21;
+}
+.product-commen-content{
+	width: 100%;
+	height: 400px;
+}

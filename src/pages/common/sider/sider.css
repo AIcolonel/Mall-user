@@ -1,0 +1,27 @@
+.sider{
+	width: 150px;
+	height: 600px;
+	float: left;
+	background: #fff;
+	margin-right: 20px;
+}
+.user-ul .li-item{
+	list-style: none;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: left;
+	/*border-bottom: 1px solid #ccc;*/
+	padding-left: 20px;
+	box-sizing: border-box; 
+	cursor: pointer;
+}
+.li-item.active .link{
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+	box-sizing: border-box; 
+	width: 100%;
+	color: red;
+	border-right: 1px solid red;
+}

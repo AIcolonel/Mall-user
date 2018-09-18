@@ -1,0 +1,22 @@
+.user-center{
+	width: 100%;
+	border-top: 1px solid red;
+}
+.user-container{
+	margin-top: 20px;
+	min-height: 600px;
+}
+.user-center .content{
+	width: 1030px;
+	min-height: 600px;
+	float: left;
+	background: #fff;
+}
+.form-case{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.form-case .form-item{
+	font-size: 16px;
+	font-weight: bold;
+}

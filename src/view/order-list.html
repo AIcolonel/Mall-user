@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title><%= htmlWebpackPlugin.options.title %>-电商平台</title>
+</head>
+<body>
+	<%= require('html-loader!./common/nav.html') %>
+	<%= require('html-loader!./common/search.html') %>
+	<div class="user-center">
+		<div class="container user-container .clearfix">
+			<%= require('html-loader!./common/sider.html') %>
+			<div class="content">
+				<div class="order-box">
+					
+				</div>
+				<div class="pagination-box">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<%= require('html-loader!./common/footer.html') %>
+</body>
+</html>

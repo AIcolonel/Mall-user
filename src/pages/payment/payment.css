@@ -1,0 +1,18 @@
+.payment-content{
+	text-align: center;
+}
+.payment-order{
+	margin-top: 20px;
+	font-size: 16px;
+	color: #837D7D;
+}
+.payment-warn{
+	margin-top: 10px;
+	font-size: 16px;
+	color: #F50B0B;
+}
+.payment-img{
+	margin-top: 10px;
+	width: 400px;
+	height: 400px;
+}

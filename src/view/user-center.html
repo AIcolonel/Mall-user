@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title><%= htmlWebpackPlugin.options.title %>-电商平台</title>
+</head>
+<body>
+	<%= require('html-loader!./common/nav.html') %>
+	<%= require('html-loader!./common/search.html') %>
+	<div class="user-center">
+		<div class="container user-container .clearfix">
+			<%= require('html-loader!./common/sider.html') %>
+			<div class="content">
+				<!-- <div class="form-case">
+					<span class="form-item">用户名：</span>
+					<span class="form-user">xxx</span>
+				</div>
+				<div class="form-case">
+					<span class="form-item">手机:</span>
+					<span class="form-phone">1238125111</span>
+				</div>
+				<div class="form-case">
+					<span class="form-item">邮箱:</span>
+					<span class="form-email">1238125111</span>
+				</div> -->
+			</div>
+		</div>
+	</div>
+
+	<%= require('html-loader!./common/footer.html') %>
+</body>
+</html>
