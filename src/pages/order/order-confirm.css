@@ -211,6 +211,9 @@ input{
 }
 .product-info{
 	width: 54%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 .product-price{
 	width: 10%;
